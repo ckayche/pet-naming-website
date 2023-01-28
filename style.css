@@ -1,0 +1,52 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 50px;
+}
+
+form {
+  margin-top: 50px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 15px #ccc;
+}
+
+label {
+  font-size: 1.2em;
+  margin-top: 10px;
+  display: block;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1.2em;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
